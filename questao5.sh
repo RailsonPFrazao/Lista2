@@ -1,6 +1,6 @@
 #!/bin/bash
 DATA="$(date +%d.%m.%y)"
-PASTA="bin/$DATA"
+PASTA="/bin/$DATA"
 mkdir ${PASTA} 
-cp * /${PASTA}
+cp * ${PASTA}
 
