@@ -1,0 +1,2 @@
+#!/bin/bash
+echo -e "Uma variável é reconhecida pelo uso do símbolo $, com isso quando o shell encontra esse símbolo ele substitui a variavel pelo seu conteúdo. Podemos ter como exemplo quando definimos uma variavel chamada 'DATA' e atribuimos um conteudo a ela, como exemplo o camando 'date', para utilizaremos da seguinte forma DATA="'(''$''date'')'", lembrando sempre que não haja espaço nem ante nem depois do simbolo de igualdade"
